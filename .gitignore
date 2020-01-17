@@ -1,0 +1,9 @@
+copyright/
+tmp-ly/
+_sources
+**/*.aux
+**/*.log
+*.idx
+*.ilg
+*.ind
+

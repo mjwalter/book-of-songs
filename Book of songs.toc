@@ -1,0 +1,54 @@
+\selectlanguage *{latex}
+\contentsline {section}{When this world comes to an end}{{\sc a}-1}%
+\contentsline {section}{I will guide thee}{{\sc a}-1}%
+\contentsline {section}{I know whose tears}{{\sc a}-2}%
+\contentsline {section}{Drive dull care away}{{\sc a}-3}%
+\contentsline {section}{I’m going home}{{\sc a}-4}%
+\contentsline {section}{General Taylor}{{\sc a}-6}%
+\contentsline {section}{John Ball}{{\sc a}-6}%
+\contentsline {section}{Gabriel’s trumpet}{{\sc a}-7}%
+\contentsline {section}{The great day (Sacred Harp)}{{\sc a}-8}%
+\contentsline {section}{That great day (Wings of the morning)}{{\sc a}-8}%
+\contentsline {section}{Essequibo River}{{\sc a}-9}%
+\contentsline {section}{Traveling shoes}{{\sc a}-10}%
+\contentsline {section}{Now our meeting’s over}{{\sc a}-11}%
+\contentsline {section}{Down to the river to pray}{{\sc a}-11}%
+\contentsline {section}{Drunken sailor}{{\sc a}-12}%
+\contentsline {section}{Boozing}{{\sc a}-12}%
+\contentsline {section}{Smoothies}{{\sc a}-13}%
+\contentsline {section}{Bringing in the sheaves (Boyes)}{{\sc b}-1}%
+\contentsline {section}{Singing through the hard times}{{\sc b}-2}%
+\contentsline {section}{Well below the valley-o}{{\sc b}-3}%
+\contentsline {section}{Crossing the bar}{{\sc b}-5}%
+\contentsline {section}{Stormalong}{{\sc b}-6}%
+\contentsline {section}{Santiana}{{\sc b}-6}%
+\contentsline {section}{Santiano (French)}{{\sc b}-7}%
+\contentsline {section}{Rolling down to Old Maui}{{\sc b}-8}%
+\contentsline {section}{Padstow farewell}{{\sc b}-9}%
+\contentsline {section}{Rolling home}{{\sc b}-10}%
+\contentsline {section}{Pleasant and delightful}{{\sc b}-11}%
+\contentsline {section}{A psalm of life}{{\sc b}-12}%
+\contentsline {section}{Mingulay boat song}{{\sc b}-13}%
+\contentsline {section}{Let the sun shine down on me}{{\sc b}-14}%
+\contentsline {section}{Anderson’s coast}{{\sc b}-15}%
+\contentsline {section}{Mary won’t you pray for me}{{\sc b}-16}%
+\contentsline {section}{I still have praise}{{\sc b}-17}%
+\contentsline {section}{Here’s a health to the company}{{\sc b}-18}%
+\contentsline {section}{Byker Hill}{{\sc b}-19}%
+\contentsline {section}{Winter’s night}{{\sc b}-20}%
+\contentsline {section}{Rowdy soul}{{\sc b}-21}%
+\contentsline {section}{Haul away Joe}{{\sc b}-22}%
+\contentsline {section}{Haul away snow}{{\sc b}-23}%
+\contentsline {section}{Collier lads}{{\sc b}-24}%
+\contentsline {section}{The good old way (Manx)}{{\sc b}-24}%
+\contentsline {section}{Save, mighty Lord}{{\sc b}-26}%
+\contentsline {section}{The parting glass}{{\sc c}-1}%
+\contentsline {section}{Down by the salley gardens}{{\sc c}-2}%
+\contentsline {section}{The cherry tree carol}{{\sc c}-2}%
+\contentsline {section}{Farewell to Tarwathie}{{\sc c}-3}%
+\contentsline {section}{The blacksmith}{{\sc c}-4}%
+\contentsline {section}{Glory in the morning}{{\sc c}-5}%
+\contentsline {section}{The blackest crow}{{\sc d}-1}%
+\contentsline {section}{The discharged drummer}{{\sc d}-2}%
+\contentsline {section}{Done found my lost sheep}{{\sc d}-3}%
+\contentsline {section}{Master Kilby}{{\sc d}-4}%

@@ -1,0 +1,560 @@
+\documentclass[openany, 8pt]{extbook}
+
+%\includeonly{"copyright/glory-in-the-morning"}
+
+\usepackage{lyluatex}
+\usepackage[papersize={10.3cm, 17cm}, top=36pt, bottom=36pt, left=36pt, right=36pt, bindingoffset=18pt]{geometry}
+
+\usepackage{fontspec, fancyhdr, polyglossia}
+\usepackage{marginnote}
+\usepackage{tocloft}
+\usepackage{xifthen}
+
+
+\usepackage{setspace}
+\linespread{1.15}
+
+\usepackage{multind}
+\usepackage{minibox}
+\usepackage[defaultlines=2,all]{nowidow}
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage{needspace}
+\newcommand{\savespace}[1]{\rule{0pt}{#1}\vspace{-#1}\vspace{-\parskip}\par}
+
+\usepackage[nobottomtitles*]{titlesec}
+\renewcommand{\bottomtitlespace}{108pt}
+
+\setlength{\headheight}{0pt}
+\renewcommand{\headrule}{}
+\fancyhf{}
+\fancyfoot[LE]{\makebox[0pt][r]{\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}\small\thepage\quad}}
+\fancyfoot[RO]{\makebox[0pt][l]{\null\quad\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}\small\thepage}}
+
+\fancypagestyle{empty}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
+\frenchspacing
+
+\tocloftpagestyle{fancy}
+\renewcommand{\cfttoctitlefont}{\hfill\LARGE\fontspec[Letters={SmallCaps,UppercaseSmallCaps},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro Rg}}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\setlength{\cftbeforetoctitleskip}{24pt}
+\setlength{\cftaftertoctitleskip}{24pt}
+\setlength{\cftparskip}{3pt}
+
+\setmainfont[Numbers={Proportional, OldStyle},Ligatures=TeX]{Beorcana Pro}
+
+\newcommand{\longerpage}[1][\baselineskip]{\enlargethispage{#1}}
+
+\titleformat*{\section}{\Large\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Display Pro Lt}}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+
+\newcommand{\currentsongtitle}{}
+\newcommand{\songtitle}[3][]{\renewcommand{\currentsongtitle}{\expandafter\MakeUppercase#2}\section[#1#2]{\categories{#3}\index{complete}{\currentsongtitle}#1#2}}
+\newcommand{\categories}[1]{{\normalsize\parbox[t][0pt]{0pt}{\makebox[0pt][r]{\minibox[frame=false,rule=0pt,pad=0pt,c,t]{#1}~~~}}}}
+\newcommand{\qv}[1]{\index{complete}{#1}}
+\newcommand{\todo}[1]{\index{incomplete}{#1}}
+\newcommand{\attribution}[1]{
+\begin{flushright}
+\tiny\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}#1
+\end{flushright}}
+\newcommand{\annotation}[1]{{\tiny\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}#1
+
+}}
+
+\newcommand{\notes}[3]{\savespace{72pt}\hskip-4pt\mbox{\lilypond{\numericTimeSignature \key #1 \time #2 \relative f' {#3}}}}
+\newcommand{\notescontd}[3]{\savespace{36pt}\hskip-4pt\mbox{\lilypond{\key #1 \time #2 \relative f' {\omit Staff.TimeSignature #3}}}}
+\newcommand{\pitches}[2]{\savespace{72pt}\hskip-4pt\mbox{\lilypond{\omit Stem \omit Flag \omit Staff.TimeSignature \key #1 \relative f' {\cadenzaOn #2}}}}
+\newcommand{\pitchescontd}[2]{\savespace{36pt}\hskip-4pt\mbox{\lilypond{\omit Stem \omit Flag \omit Staff.TimeSignature \key #1 \relative f' {\cadenzaOn #2}}}}
+\newcommand{\contd}{\vskip-4pt}
+
+% Here is a list of all the separate indices
+\makeindex{company}
+\makeindex{love}
+\makeindex{death}
+\makeindex{religious}
+\makeindex{work}
+\makeindex{sea}
+% \makeindex{narrative}
+\makeindex{sturdy}
+\makeindex{funny}
+\makeindex{farewell}
+\makeindex{laurie}
+\makeindex{complete}
+\makeindex{incomplete}
+
+% Here is a list of the category symbols
+\newcommand{\lauriesymbol}{{\fontspec{Noto Emoji}🌻}}
+\newcommand{\companysymbol}{{\fontspec{Noto Emoji}👭}}
+\newcommand{\singingsymbol}{{\fontspec{Noto Emoji}🎼}}
+\newcommand{\drinkingsymbol}{{\fontspec{Noto Emoji}🍻}}
+\newcommand{\worksymbol}{{\fontspec{Noto Emoji}🔨}}
+\newcommand{\seasymbol}{{\fontspec{Noto Emoji}⚓}}
+\newcommand{\lovesymbol}{{\fontspec{Noto Emoji}❤}}
+\newcommand{\heartbreaksymbol}{{\fontspec{Noto Emoji}💔}}
+\newcommand{\deathsymbol}{{\fontspec{Noto Emoji}💀}}
+\newcommand{\religioussymbol}{{\fontspec{Noto Emoji}⛪}}
+\newcommand{\apocalypticsymbol}{{\fontspec{Noto Emoji}🌠}}
+\newcommand{\narrativesymbol}{{\fontspec{Noto Emoji}📖}}
+\newcommand{\sturdysymbol}{{\fontspec{Noto Emoji}💪}}
+\newcommand{\funnysymbol}{{\fontspec{Noto Emoji}🐒}}
+\newcommand{\farewellsymbol}{{\fontspec{Noto Emoji}🌜}}
+
+% Here are the definitions of the category commands, which show a symbol and may add to an index
+\newcommand{\laurie}{\lauriesymbol\index{laurie}{\currentsongtitle}}
+\newcommand{\company}{\companysymbol\index{company}{\currentsongtitle}}
+\newcommand{\singing}{\singingsymbol\index{company}{\currentsongtitle}}
+\newcommand{\drinking}{\drinkingsymbol\index{company}{\currentsongtitle}}
+\newcommand{\work}{\worksymbol}
+\newcommand{\sea}{\seasymbol}
+\newcommand{\love}{\lovesymbol\index{love}{\currentsongtitle}}
+\newcommand{\heartbreak}{\heartbreaksymbol\index{love}{\currentsongtitle}}
+\newcommand{\death}{\deathsymbol\index{death}{\currentsongtitle}}
+\newcommand{\religious}{\religioussymbol\index{religious}{\currentsongtitle}}
+\newcommand{\apocalyptic}{\apocalypticsymbol\index{religious}{\currentsongtitle}}
+\newcommand{\narrative}{\narrativesymbol\index{narrative}{\currentsongtitle}}
+\newcommand{\sturdy}{\sturdysymbol\index{sturdy}{\currentsongtitle}}
+\newcommand{\funny}{\funnysymbol\index{funny}{\currentsongtitle}}
+\newcommand{\parody}{\funnysymbol\index{funny}{\currentsongtitle}}
+\newcommand{\farewell}{\farewellsymbol\index{farewell}{\currentsongtitle}}
+
+% Here is the command to make an index header
+\newcommand{\indexsymboltitle}[1]{\savespace{24pt}
+
+{\fontspec{Noto Emoji}#1}
+
+}
+\newcommand{\customindexentry}[2]{\ifthenelse{\isempty{#2}}{#1}{#1~~•~~#2}\\}
+
+%\newcommand{\chorus}[1]{{\makebox[0pt][r]{{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r.}~~~}\bf#1}}
+\newcommand{\chorusfont}[1]{{\bf#1}}
+\newcommand{\chorus}[1]{{\makebox[0pt][r]{{\footnotesize\fontspec{Noto Emoji}👉}~~}\chorusfont{#1}}}
+\newcommand{\versemark}{\makebox[0pt][r]{•~~~}}
+%\newcommand{\refrain}{\quad{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r.}}
+\newcommand{\refrain}{~~\makebox[0pt][l]{\footnotesize\fontspec{Noto Emoji}👉}}
+%\newcommand{\doublerefrain}{\quad{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r\kern0.1pt r.}}
+\newcommand{\doublerefrain}{~~~\makebox[0pt][l]{\footnotesize\fontspec{Noto Emoji}👉}}
+\newcommand{\differentline}{{\fontspec{Noto Emoji}🔸}}
+
+\newcommand{\vin}{\null\hskip 1em}
+\newcommand{\vvin}{\null\hskip 2em}
+
+\newcommand{\etc}{\ \kern-1pt{\scriptsize\fontspec{Noto Emoji}⤴}\ \kern-1pt}
+\newcommand{\etcc}{\ \kern-1pt{\scriptsize\fontspec{Noto Emoji}⤴\kern-1.5pt ⤴}\ \kern-1pt}
+\newcommand{\simile}{\makebox[0pt][l]{~~\footnotesize\fontspec{Noto Emoji}💫}}
+
+\newcommand{\emphasis}[1]{{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Pro}\textsc{#1}}}
+
+
+
+\newlength{\letterwidth}
+
+\renewcommand{\d}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{-6.5pt}{˙}}}\hskip0.5\letterwidth}
+
+\newcommand{\dd}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{-6.5pt}{¨}}}\hskip0.5\letterwidth}
+
+\newcommand{\m}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{0.5pt}{¯}}}\hskip0.5\letterwidth}
+
+\newcommand{\M}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{2.5pt}{¯}}}\hskip0.5\letterwidth}
+
+\renewcommand{\c}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{0.5pt}{ˇ}}}\hskip0.5\letterwidth}
+
+\newcommand{\C}[1]{\settowidth{\letterwidth}{#1}#1\hskip-0.5\letterwidth\makebox[0pt][c]{\smash{\raisebox{2.5pt}{ˇ}}}\hskip0.5\letterwidth}
+
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{4pt minus 1pt}
+
+\lysetoption{staffsize}{12}
+
+\raggedbottom
+
+
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\frontmatter
+
+\sloppy
+
+\null\vspace{72pt}
+
+\begin{center}
+\thispagestyle{empty}
+\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\large\textsc{a book of songs}
+\end{center}
+
+\newpage
+\null
+\thispagestyle{empty}
+\newpage
+
+\null\vspace{48pt}
+
+\begin{center}
+\thispagestyle{empty}
+\LARGE
+\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\Huge\textsc{a book of songs}
+
+\vspace{6pt}
+\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\LARGE\textsc{for learning and reference}
+
+
+\vfill
+{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{walter publications}}
+
+{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{first draft • yts 2020}}
+\end{center}
+
+\newpage
+
+\thispagestyle{empty}
+\null
+\vfill
+Compiled 2020 Micah John Walter.\\
+This book of songs is for personal use only.
+
+\clearpage
+
+\tableofcontents
+
+\mainmatter
+
+
+% Songs with choruses, learned
+
+\renewcommand\thepage{{\sc a}-\arabic{page}}
+
+\begingroup
+\let\clearpage\relax
+\include{"chorus/when-this-world-comes-to-an-end"}
+\include{"copyright/i-will-guide-thee"}
+\include{"copyright/i-know-whose-tears"}
+\include{"chorus/drive-dull-care-away"}
+\include{"copyright/im-going-home"}
+\include{"chorus/general-taylor"}
+\include{"copyright/john-ball"}
+\include{"chorus/gabriels-trumpet"}
+\include{"chorus/great-day-sh"}
+\include{"chorus/that-great-day"}
+\include{"chorus/essequibo-river"}
+\include{"chorus/traveling-shoes"}
+\include{"chorus/now-our-meetings-over"}
+\include{"chorus/down-to-the-river-to-pray"}
+\include{"chorus/drunken-sailor"}
+\include{"chorus/boozing"}
+\include{"copyright/boozing-1"}
+\include{"copyright/boozing-2"}
+\todo{Sixteen tons}
+\include{"chorus/roll-the-old-chariot-along"}
+\include{"chorus/wayfaring-stranger"}
+\include{"chorus/golden-streets"}
+\endgroup
+
+\cleardoublepage
+
+
+% Songs with choruses, unlearned
+
+\renewcommand\thepage{{\sc b}-\arabic{page}}
+\setcounter{page}{1}
+
+\begingroup
+\let\clearpage\relax
+\include{"copyright/bringing-in-the-sheaves"}
+\include{"copyright/singing-through-the-hard-times"}
+\include{"chorus/well-below-the-valley-o"}
+\include{"copyright/crossing-the-bar"}
+\include{"chorus/stormalong"}
+\include{"chorus/santiana"}
+\include{"copyright/santiana-1"}
+\include{"chorus/rolling-down-to-old-maui"}
+\include{"chorus/padstow-farewell"}
+\include{"copyright/rolling-home"}
+\include{"chorus/pleasant-and-delightful"}
+\include{"copyright/psalm-of-life"}
+\include{"copyright/mingulay"}
+\include{"copyright/let-the-sun-shine-down-on-me"}
+\include{"copyright/andersons-coast"}
+\todo{Row on}
+\include{"copyright/mary-wont-you-pray-for-me"}
+\include{"copyright/i-still-have-praise"}
+\include{"chorus/heres-a-health-to-the-company"}
+\include{"chorus/byker-hill"}
+\include{"chorus/winters-night"}
+\include{"chorus/rowdy-soul"}
+\include{"chorus/haul-away-joe"}
+\include{"copyright/haul-away-joe-1"}
+\include{"copyright/collier-lads"}
+\include{"chorus/good-old-way-manx"}
+\include{"chorus/save-mighty-lord"}
+\include{"chorus/p-stands-for-paddy"}
+\include{"chorus/deliverance-will-come"}
+\todo{O death}
+\todo{Fisherman’s song}
+\include{"chorus/south-australia"}
+\todo{Bluenose}
+\todo{Bonnie ship the Diamond}
+\todo{Hewed out of the mountain}
+\todo{Barrett’s privateers}
+\todo{Whisky in the jar}
+\todo{Wild mountain thyme}
+\todo{Hill of thieves}
+\todo{False, false}
+\todo{Bold Jamie}
+\todo{Bold Riley}
+\todo{John Riley}
+\todo{Which side are you on}
+\todo{Devil’s nine questions}
+\todo{Shady Grove}
+\todo{Country roads}
+\todo{Bully in the alley}
+\todo{Chicken on a raft}
+\todo{Diggers’ song}
+\todo{Fire down below}
+\todo{Fire Maringo}
+\todo{Bound for the Rio Grande}
+\todo{Sugar in the hold below}
+\todo{Tea chantey} % (Jonathan Jensen)
+\todo{Fathom the bowl}
+\todo{Gower wassail}
+\todo{Keg of brandy}
+\todo{Bring us a barrel}
+\todo{Load ’em and stack ’em}
+\todo{Wild rover}
+\todo{Farthest field}
+\todo{Bonaparte}
+\todo{Katie cruel}
+\todo{False lady}
+\todo{Madam I’m a darling}
+\todo{Let union be}
+\todo{Ain’t no ash will burn}
+\todo{Babe of Bethlehem}
+\todo{Down to the river to pray}
+\todo{Missionary’s farewell}
+\todo{I’ll fly away}
+\todo{Chickens}
+\todo{Five hundred miles}
+\todo{How can I keep from singing}
+\todo{Better days coming}
+\todo{Mandy at the sing}
+\todo{Fox} % The fox
+\todo{Old moke picking on a banjo} % https://mainlynorfolk.info/danny.spooner/songs/theoldmokepickingonabanjo.html
+\todo{As I roved out} % Seventeen come Sunday https://en.wikipedia.org/wiki/Seventeen_Come_Sunday
+\todo{Uist tramping song}
+\todo{Star of the County Down}
+\todo{Loch Lomond}
+\todo{Scarborough Fair}
+\todo{I sing through the morning}
+\todo{Sea coal}
+\todo{Here is my home} % \farewell
+\todo{Resurrected} % My father’s gone to view that land (Sacred Harp 153)
+\todo{City that lies foursquare} % (Skaggs etc) https://www.youtube.com/watch?v=IRtVx5eNiDk
+\todo{King’s shilling}
+\todo{Juliana} % Where do you go
+\todo{Journey Home} % (Sacred Harp 111t)
+\todo{Well well well} % (The Highwaymen / Bob Gibson)
+\todo{Hares on a mountain} % O Sally my dear
+\todo{Jack a Roe} % Lilly Munroe / Lay the lily-o
+\todo{Maid of Amsterdam} % A-roving
+\todo{Glorious ale} % Ale, glorious ale
+\todo{Thousands or more} % Sorrows away
+\todo{We’ll camp awhile in the wilderness} % [include duet]
+\todo{Bright shining morning} % http://www.traditionalmusic.co.uk/folk-song-lyrics/Bright_Shining_Morning.htm
+\todo{Away, away} % Len Graham, performer
+\todo{Hard to get along} % Emily Miller, performer
+\todo{À la claire fontaine} % Crowfoot
+\todo{Calon lân} % with harmony :)
+\todo{Kvazaŭ sonĝo} % (Inspiro)
+\todo{Bam bam} % Veganaj homoj manĝas ne la bestojn / Ne la bestojn - just print words?
+\todo{May it be} % use tengwar!
+\todo{Ar hyd y nos} % All through the night
+
+
+\endgroup
+
+\cleardoublepage
+
+
+% Songs for listening, learned
+
+\renewcommand\thepage{{\sc c}-\arabic{page}}
+\setcounter{page}{1}
+
+\begingroup
+\let\clearpage\relax
+\include{"listening/parting-glass"}
+\include{"listening/down-by-the-salley-gardens"}
+\include{"listening/cherry-tree-carol"}
+\include{"listening/farewell-to-tarwathie"}
+\include{"listening/blacksmith"}
+\include{"copyright/glory-in-the-morning"}
+\include{"listening/good-old-way"}
+\endgroup
+
+\cleardoublepage
+
+
+% Songs for listening, unlearned
+
+\renewcommand\thepage{{\sc d}-\arabic{page}}
+\setcounter{page}{1}
+
+\begingroup
+\let\clearpage\relax
+\include{"listening/blackest-crow"}
+\include{"listening/discharged-drummer"}
+\include{"listening/done-found-my-lost-sheep"}
+\include{"listening/master-kilby"}
+\include{"listening/last-night-as-i-lay-on-my-bed"}
+\todo{O thou who driest the mourner’s tear}
+\todo{Female convict}
+\todo{Jack-a-Roe}
+\todo{My heart is sair for somebody}
+\todo{the House carpenter}
+\todo{Fire on the edge of things}
+\todo{Hicks’ farewell}
+\todo{Fair and tender ladies}
+\todo{Maid of Culmore}
+\todo{Lass of Glenshee}
+\todo{Barbara Allen}
+\todo{Glens of Aherlow}
+\todo{Dreadful end of Marianna for sorcery}
+\todo{Willy O Windsbury}
+\todo{Pretty Saro}
+\todo{Henry Lee}
+\todo{Crafty maid’s policy}
+\todo{Lowlands of Holland}
+\todo{Matty Groves}
+\todo{Little Margaret}
+\todo{Brigg fair}
+\todo{Fair maid walking}
+\todo{Foggy dew}
+\todo{John Barleycorn}
+\todo{Barley mow}
+\todo{Boy who wouldn’t hoe corn}
+\todo{One morning in May}
+\todo{Shepherd of the downs}
+\todo{Fare ye well lovely Nancy}
+\todo{Adieu sweet lovely Nancy}
+\todo{Occam’s carol}
+\todo{Twa corbies}
+\todo{Water is wide}
+\todo{Be thou my vision}
+\todo{On the banks of the silvery tide}
+\todo{Bay of Biscay-o}
+\todo{Red rocking chair}
+\todo{True lovers’ farewell}
+\todo{Newry town}
+\todo{Newry highwayman}
+\todo{Pretty Polly}
+\todo{Kilkelly, Ireland}
+\todo{Rockingham}
+\todo{Walk with God}
+\todo{The cuckoo} % banjo
+\todo{Yarrow} % Dowie dens of Yarrow / Braes of Yarrow
+\todo{Down in the willow garden} % Willow garden
+\todo{the Gallows tree} % Tim Eriksen, performer
+\todo{I love the holy Son of God} % Tim Eriksen, performer
+\todo{Love divine, all loves excelling} % Blaenwern
+\todo{I wish the wars were all over} % Tim Eriksen, performer
+\todo{Death of Queen Jane} % Karine Polwart, performer; Tim Eriksen, performer
+\todo{Lord Randal} % Tim Eriksen, performer
+\todo{Cruel mother} % https://mainlynorfolk.info/lloyd/songs/thecruelmother.html (two babes from https://timeriksen.bandcamp.com/album/soul-of-the-january-hills)
+\todo{Cuba} % Poor mourners found a home at last (Sacred Harp 401)
+\todo{Heavenly port} % Sacred Harp 378t; also 128 - http://www.hymntime.com/tch/htm/o/j/o/ojordsbi.htm
+\todo{Farewell vain world} % Sacred Harp 176t, 274t, 278b; more words at 282
+\todo{Crying of Emmanuel} % Laurie Tupper, songwriter, performer
+\todo{Ortonville} % How sweet the name of Jesus sounds
+\todo{New railroad} % Big John Henry
+\todo{I wonder what’s keeping my true love tonight} % Solas (group), performer
+\todo{Butcher boy} % Go dig my grave both wide and deep
+\todo{Old Bangham} % narrative https://www.jefftk.com/p/old-family-songs
+\todo{Drowsy sleeper} % / Silver dagger - Tim Eriksen, performer
+\todo{Binnorie} % Two sisters
+\todo{The bold fisherman} % https://www.youtube.com/watch?v=8hSzZQBGyUs
+\todo{L \& N don't stop here anymore} % Jean Ritchie, performer
+\todo{Annabel Lee} % Edgar Allan Poe, lyricist; De Elegasten (group), translator, composer, performer
+\todo{Annabel Lee} % Edgar Allan Poe, lyricist; Sarah Jarosz, performer
+\todo{The bold grenadier} % [The] nightingale / "One morning in May (Bold grenadier)" [pick melody and words - https://www.youtube.com/watch?v=cVVp_y7G59k]
+\todo{One morning in May (Green meadows)} % [https://www.youtube.com/watch?v=w4lC7QFdpms]
+\todo{Three little devils} % Roud 160; Jean Ritchie, performer
+\todo{O when shall I see Jesus} % Sacred Harp 85 82t 106 129 319 410b
+\todo{Lord of all hopefulness} % Slane
+\todo{God’s promise}
+\endgroup
+
+\cleardoublepage
+
+
+% Indices
+
+% Double-check all songs to make sure all categories are present (narrative, etc)
+% Make sure all files are included
+
+\backmatter
+
+\renewcommand\thepage{{\sc e}-\arabic{page}}
+\setcounter{page}{1}
+
+\indexsymboltitle{\companysymbol\ \drinkingsymbol}
+\input{"indices/company"}
+
+\indexsymboltitle{\lovesymbol\ \heartbreaksymbol}
+\input{"indices/love"}
+
+\indexsymboltitle{\deathsymbol}
+\input{"indices/death"}
+
+\indexsymboltitle{\religioussymbol}
+\input{"indices/religious"}
+
+\indexsymboltitle{\sturdysymbol}
+\input{"indices/sturdy"}
+
+\indexsymboltitle{\funnysymbol}
+\input{"indices/funny"}
+
+\indexsymboltitle{\farewellsymbol}
+\input{"indices/farewell"}
+
+\indexsymboltitle{\lauriesymbol}
+\input{"indices/laurie"}
+
+{\LARGE\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{all}}
+
+\input{"indices/complete"}
+
+\newpage
+
+\thispagestyle{empty}
+
+~
+
+\newpage
+
+
+% Colophon
+
+% \cleartoleftpage
+
+\thispagestyle{empty}
+
+\null\vspace{72pt}
+\begin{center}
+Typeset in 8-point Beorcana
+\end{center}
+
+\end{document}
