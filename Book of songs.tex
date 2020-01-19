@@ -1,6 +1,6 @@
 \documentclass[openany, 8pt]{extbook}
 
-%\includeonly{"copyright/glory-in-the-morning"}
+%\includeonly{"chorus/there-is-more-love-somewhere"}
 
 \usepackage{lyluatex}
 \usepackage[papersize={10.3cm, 17cm}, top=36pt, bottom=36pt, left=36pt, right=36pt, bindingoffset=18pt]{geometry}
@@ -152,8 +152,9 @@
 \newcommand{\vin}{\null\hskip 1em}
 \newcommand{\vvin}{\null\hskip 2em}
 
-\newcommand{\etc}{\ \kern-1pt{\scriptsize\fontspec{Noto Emoji}⤴}\ \kern-1pt}
-\newcommand{\etcc}{\ \kern-1pt{\scriptsize\fontspec{Noto Emoji}⤴\kern-1.5pt ⤴}\ \kern-1pt}
+\newcommand{\etc}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴}}
+\newcommand{\etcc}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴\kern-1.5pt ⤴}}
+\newcommand{\etcrefrain}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴\kern1.5pt 👉}}
 \newcommand{\simile}{\makebox[0pt][l]{~~\footnotesize\fontspec{Noto Emoji}💫}}
 
 \newcommand{\emphasis}[1]{{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Pro}\textsc{#1}}}
@@ -218,7 +219,7 @@
 \vfill
 {\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{walter publications}}
 
-{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{first draft • yts 2020}}
+{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{version 1.1 • post-yts 2020}}
 \end{center}
 
 \newpage
@@ -304,7 +305,14 @@ This book of songs is for personal use only.
 \include{"chorus/good-old-way-manx"}
 \include{"chorus/save-mighty-lord"}
 \include{"chorus/p-stands-for-paddy"}
+\include{"chorus/what-will-we-do"}
 \include{"chorus/deliverance-will-come"}
+\include{"copyright/more-waters-rising"}
+\include{"chorus/block-island-song"}
+\include{"chorus/leave-her-johnny"}
+\include{"copyright/raise-the-rafters"}
+\include{"chorus/there-is-more-love-somewhere"}
+\include{"chorus/dead-and-gone"}
 \todo{O death}
 \todo{Fisherman’s song}
 \include{"chorus/south-australia"}
@@ -313,6 +321,7 @@ This book of songs is for personal use only.
 \todo{Hewed out of the mountain}
 \todo{Barrett’s privateers}
 \todo{Whisky in the jar}
+\include{"copyright/no-time-to-feel-hopeless"}
 \todo{Wild mountain thyme}
 \todo{Hill of thieves}
 \todo{False, false}
@@ -330,6 +339,8 @@ This book of songs is for personal use only.
 \todo{Fire Maringo}
 \todo{Bound for the Rio Grande}
 \todo{Sugar in the hold below}
+\include{"chorus/randy-dandy-o"}
+\include{"chorus/bold-william-taylor"}
 \todo{Tea chantey} % (Jonathan Jensen)
 \todo{Fathom the bowl}
 \include{"chorus/gower-wassail"}
@@ -348,7 +359,10 @@ This book of songs is for personal use only.
 \todo{Down to the river to pray}
 \todo{Missionary’s farewell}
 \include{"chorus/ill-fly-away"}
+\include{"copyright/parting-song"}
 \todo{Chickens}
+\include{"chorus/chick-a-li-lee-o"}
+\include{"chorus/up-and-away-with-the-laverock"}
 \todo{Magpie} % https://nigelmusic.wordpress.com/2015/05/01/the-story-behind-the-song-the-magpie/
 \todo{Five hundred miles}
 \todo{How can I keep from singing}
@@ -362,24 +376,32 @@ This book of songs is for personal use only.
 \todo{Loch Lomond}
 \todo{Scarborough Fair}
 \todo{Black is the color of my true love’s hair} % Nina Simone
-\todo{I sing through the morning}
+\todo{Short life of trouble}
+\include{"copyright/sing-through-the-morning"}
 \todo{Sea coal}
+\include{"copyright/way-down-in-the-toad-mines"}
 \include{"copyright/here-is-my-home"}
 \todo{Resurrected} % My father’s gone to view that land (Sacred Harp 153)
+\todo{Cuba} % Poor mourners found a home at last (Sacred Harp 401)
 \todo{City that lies foursquare} % (Skaggs etc) https://www.youtube.com/watch?v=IRtVx5eNiDk
 \include{"chorus/there-is-no-night-there"}
 \include{"chorus/kings-shilling"}
+\include{"copyright/sweet-mary-starbuck"}
+\include{"copyright/stand-together"}
 \todo{Juliana} % Where do you go
 \todo{Journey Home} % (Sacred Harp 111t)
 \todo{Well well well} % (The Highwaymen / Bob Gibson)
 \todo{Hares on a mountain} % O Sally my dear
 \todo{Jack-a-Roe} % Lilly Munroe / Lay the lily-o
 \todo{Maid of Amsterdam} % A-roving
+\todo{Poor boy (Red Molly)}
+\todo{River driver}
 \todo{Glorious ale} % Ale, glorious ale
 \include{"chorus/thousands-or-more"}
 \include{"chorus/im-wandering-to-and-fro"}
 \todo{Bright shining morning} % http://www.traditionalmusic.co.uk/folk-song-lyrics/Bright_Shining_Morning.htm
 \todo{Away, away} % Len Graham, performer
+\include{"copyright/come-and-get-your-oars-and-row"}
 \todo{Hard to get along} % Emily Miller, performer
 \todo{À la claire fontaine} % Crowfoot
 \todo{Calon lân} % with harmony :)
@@ -446,6 +468,7 @@ This book of songs is for personal use only.
 \todo{Little Margaret}
 \todo{Brigg fair}
 \todo{Fair maid walking}
+\include{"listening/fair-annie"}
 \todo{Foggy dew}
 \todo{John Barleycorn}
 \todo{Barley mow}
@@ -468,7 +491,8 @@ This book of songs is for personal use only.
 \todo{Kilkelly, Ireland}
 \todo{Rockingham}
 \todo{Walk with God}
-\todo{The cuckoo} % banjo
+\todo{The cuckoo} % fiddle
+\include{"listening/willies-lady"}
 \todo{Yarrow} % Dowie dens of Yarrow / Braes of Yarrow
 \todo{Down in the willow garden} % Willow garden
 \todo{the Gallows tree} % Tim Eriksen, performer
@@ -477,8 +501,10 @@ This book of songs is for personal use only.
 \todo{I wish the wars were all over} % Tim Eriksen, performer
 \todo{Death of Queen Jane} % Karine Polwart, performer; Tim Eriksen, performer
 \todo{Lord Randal} % Tim Eriksen, performer
+\include{"listening/forester"}
+\include{"listening/female-rambling-sailor"}
 \todo{Cruel mother} % https://mainlynorfolk.info/lloyd/songs/thecruelmother.html (two babes from https://timeriksen.bandcamp.com/album/soul-of-the-january-hills)
-\todo{Cuba} % Poor mourners found a home at last (Sacred Harp 401)
+\include{"listening/captain-kidd"}
 \todo{Heavenly port} % Sacred Harp 378t; also 128 - http://www.hymntime.com/tch/htm/o/j/o/ojordsbi.htm
 \todo{Farewell vain world} % Sacred Harp 176t, 274t, 278b; more words at 282
 \include{"copyright/crying-of-emmanuel"}
@@ -489,7 +515,11 @@ This book of songs is for personal use only.
 \todo{Old Bangham} % narrative https://www.jefftk.com/p/old-family-songs
 \todo{Drowsy sleeper} % / Silver dagger - Tim Eriksen, performer
 \todo{Binnorie} % Two sisters
+\include{"listening/willie-moore"}
+\include{"copyright/red-winged-blackbird"}
+\include{"listening/lady-diamond"}
 \todo{The bold fisherman} % https://www.youtube.com/watch?v=8hSzZQBGyUs
+\todo{The great silkie of Sule Skerry}
 \todo{L \& N don't stop here anymore} % Jean Ritchie, performer
 \todo{Annabel Lee} % Edgar Allan Poe, lyricist; De Elegasten (group), translator, composer, performer
 \todo{Annabel Lee} % Edgar Allan Poe, lyricist; Sarah Jarosz, performer

@@ -31,8 +31,9 @@
 \contentsline {section}{Mingulay boat song}{{\sc b}-13}%
 \contentsline {section}{Let the sun shine down on me}{{\sc b}-14}%
 \contentsline {section}{Anderson’s coast}{{\sc b}-15}%
+\contentsline {section}{Row on}{{\sc b}-16}%
 \contentsline {section}{Mary won’t you pray for me}{{\sc b}-16}%
-\contentsline {section}{I still have praise}{{\sc b}-17}%
+\contentsline {section}{I still have praise}{{\sc b}-18}%
 \contentsline {section}{Here’s a health to the company}{{\sc b}-18}%
 \contentsline {section}{Byker Hill}{{\sc b}-19}%
 \contentsline {section}{Winter’s night}{{\sc b}-20}%
@@ -42,6 +43,33 @@
 \contentsline {section}{Collier lads}{{\sc b}-24}%
 \contentsline {section}{The good old way (Manx)}{{\sc b}-24}%
 \contentsline {section}{Save, mighty Lord}{{\sc b}-26}%
+\contentsline {section}{P stands for Paddy}{{\sc b}-27}%
+\contentsline {section}{What will we do}{{\sc b}-27}%
+\contentsline {section}{Deliverance will come}{{\sc b}-27}%
+\contentsline {section}{More waters rising}{{\sc b}-27}%
+\contentsline {section}{Block Island song}{{\sc b}-28}%
+\contentsline {section}{Leave her, Johnny}{{\sc b}-28}%
+\contentsline {section}{Raise the rafters}{{\sc b}-29}%
+\contentsline {section}{There is more love somewhere}{{\sc b}-29}%
+\contentsline {section}{Dead and gone}{{\sc b}-30}%
+\contentsline {section}{South Australia}{{\sc b}-30}%
+\contentsline {section}{No time to feel hopeless}{{\sc b}-30}%
+\contentsline {section}{Bold Riley}{{\sc b}-31}%
+\contentsline {section}{Randy-dandy-o}{{\sc b}-31}%
+\contentsline {section}{Bold William Taylor}{{\sc b}-32}%
+\contentsline {section}{Gower wassail}{{\sc b}-32}%
+\contentsline {section}{Thefarthest field}{{\sc b}-32}%
+\contentsline {section}{Katie Cruel}{{\sc b}-33}%
+\contentsline {section}{Ain’t no ash will burn}{{\sc b}-33}%
+\contentsline {section}{I’ll fly away}{{\sc b}-33}%
+\contentsline {section}{Parting song}{{\sc b}-33}%
+\contentsline {section}{Chick-a-li-lee-o}{{\sc b}-33}%
+\contentsline {section}{Up and away with the laverock}{{\sc b}-33}%
+\contentsline {section}{Sing through the morning}{{\sc b}-34}%
+\contentsline {section}{Way down in the toad mines}{{\sc b}-34}%
+\contentsline {section}{Here is my home}{{\sc b}-34}%
+\contentsline {section}{There is no night there}{{\sc b}-34}%
+\contentsline {section}{The king’s shilling}{{\sc b}-34}%
 \contentsline {section}{The parting glass}{{\sc c}-1}%
 \contentsline {section}{Down by the salley gardens}{{\sc c}-2}%
 \contentsline {section}{The cherry tree carol}{{\sc c}-2}%
@@ -52,3 +80,13 @@
 \contentsline {section}{The discharged drummer}{{\sc d}-2}%
 \contentsline {section}{Done found my lost sheep}{{\sc d}-3}%
 \contentsline {section}{Master Kilby}{{\sc d}-4}%
+\contentsline {section}{Last night as I lay on my bed}{{\sc d}-5}%
+\contentsline {section}{Fair Annie}{{\sc d}-6}%
+\contentsline {section}{Twa corbies}{{\sc d}-6}%
+\contentsline {section}{Red rocking chair}{{\sc d}-6}%
+\contentsline {section}{Willie’s lady}{{\sc d}-6}%
+\contentsline {section}{The female rambling sailor}{{\sc d}-6}%
+\contentsline {section}{Captain Kidd (Shenandoah Harmony)}{{\sc d}-6}%
+\contentsline {section}{The crying of Emmanuel}{{\sc d}-6}%
+\contentsline {section}{Willie Moore}{{\sc d}-6}%
+\contentsline {section}{Red-winged blackbird}{{\sc d}-7}%
