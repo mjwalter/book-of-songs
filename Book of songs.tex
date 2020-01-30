@@ -223,7 +223,7 @@
 \vfill
 {\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{walter publications}}
 
-{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{version 1.1 • post-yts 2020}}
+{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{version 1.2 • february 2020}}
 \end{center}
 
 \newpage
@@ -234,16 +234,83 @@
 Compiled 2020 Micah John Walter.\\
 This book of songs is for personal use only.
 
+
+% List of songs in book order
+
 \clearpage
+
+\mainmatter
+
+\renewcommand\thepage{{\sc a}-\arabic{page}}
+\setcounter{page}{1}
 
 \tableofcontents
 
-\mainmatter
+
+% Complete alphabetical list
+
+\cleardoublepage
+
+\renewcommand\thepage{{\sc b}-\arabic{page}}
+\setcounter{page}{1}
+
+\null\vskip24pt
+{\hfill\LARGE\fontspec[Letters={SmallCaps,UppercaseSmallCaps},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro Rg}alphabetical list of songs\hfill}
+
+\vskip24pt
+
+\input{"indices/complete"}
+
+
+% Categories
+
+% Double-check all songs to make sure all categories are present (narrative, etc)
+% Make sure all files are included
+
+\cleardoublepage
+
+\renewcommand\thepage{{\sc c}-\arabic{page}}
+\setcounter{page}{1}
+
+\null\vskip24pt
+{\hfill\LARGE\fontspec[Letters={SmallCaps,UppercaseSmallCaps},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro Rg}categories\hfill}
+
+\vskip24pt
+
+\indexsymboltitle{\companysymbol\\\drinkingsymbol}%
+\input{"indices/company"}
+
+\indexsymboltitle{\lovesymbol\\\heartbreaksymbol}%
+\input{"indices/love"}
+
+\indexsymboltitle{\deathsymbol}%
+\input{"indices/death"}
+
+\indexsymboltitle{\religioussymbol}%
+\input{"indices/religious"}
+
+\indexsymboltitle{\sturdysymbol}%
+\input{"indices/sturdy"}
+
+\indexsymboltitle{\fiddlesymbol}%
+\input{"indices/fiddle"}
+
+\indexsymboltitle{\funnysymbol}%
+\input{"indices/funny"}
+
+\indexsymboltitle{\farewellsymbol}%
+\input{"indices/farewell"}
+
+\indexsymboltitle{\lauriesymbol}%
+\input{"indices/laurie"}
 
 
 % Songs for leading
 
-\renewcommand\thepage{{\sc a}-\arabic{page}}
+\cleardoublepage
+
+\renewcommand\thepage{{\sc d}-\arabic{page}}
+\setcounter{page}{1}
 
 \begingroup
 \let\clearpage\relax
@@ -253,8 +320,8 @@ This book of songs is for personal use only.
 \include{"songs/bonaparte"}
 \include{"songs/great-day-sh"}
 \include{"songs/that-great-day"}
+\include{"songs/chickens-they-are-crowing"}
 \include{"songs/winters-night"}
-\include{"songs/chickens"}
 \include{"copyright/i-know-whose-tears"}
 \include{"copyright/mingulay"}
 \include{"songs/golden-streets"}
@@ -517,12 +584,12 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{Love divine, all loves excelling} % Blaenwern
 \endgroup
 
-\cleardoublepage
-
 
 % Rounds
 
-\renewcommand\thepage{{\sc c}-\arabic{page}}
+\cleardoublepage
+
+\renewcommand\thepage{{\sc f}-\arabic{page}}
 \setcounter{page}{1}
 
 \begingroup
@@ -536,49 +603,7 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{Oh how lovely is the evening}
 \endgroup
 
-\cleardoublepage
-
-
-% Indices
-
-% Double-check all songs to make sure all categories are present (narrative, etc)
-% Make sure all files are included
-
 \backmatter
-
-\renewcommand\thepage{{\sc d}-\arabic{page}}
-\setcounter{page}{1}
-
-\indexsymboltitle{\companysymbol\ \drinkingsymbol}
-\input{"indices/company"}
-
-\indexsymboltitle{\lovesymbol\ \heartbreaksymbol}
-\input{"indices/love"}
-
-\indexsymboltitle{\deathsymbol}
-\input{"indices/death"}
-
-\indexsymboltitle{\religioussymbol}
-\input{"indices/religious"}
-
-\indexsymboltitle{\sturdysymbol}
-\input{"indices/sturdy"}
-
-\indexsymboltitle{\fiddlesymbol}
-\input{"indices/fiddle"}
-
-\indexsymboltitle{\funnysymbol}
-\input{"indices/funny"}
-
-\indexsymboltitle{\farewellsymbol}
-\input{"indices/farewell"}
-
-\indexsymboltitle{\lauriesymbol}
-\input{"indices/laurie"}
-
-{\LARGE\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Display Pro}\textsc{all}}
-
-\input{"indices/complete"}
 
 \newpage
 
