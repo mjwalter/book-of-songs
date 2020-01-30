@@ -50,7 +50,11 @@
 \renewcommand{\cftaftertoctitle}{\hfill}
 \setlength{\cftbeforetoctitleskip}{24pt}
 \setlength{\cftaftertoctitleskip}{24pt}
-\setlength{\cftparskip}{3pt}
+\setlength{\cftparskip}{0pt}
+\renewcommand{\cftpnumalign}{l}
+\renewcommand{\cftsecleader}{~~•~~}
+\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+\renewcommand{\cftpnumalign}{l}
 
 \setmainfont[Numbers={Proportional, OldStyle},Ligatures=TeX]{Beorcana Pro}
 
@@ -60,7 +64,7 @@
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
 \newcommand{\currentsongtitle}{}
-\newcommand{\songtitle}[3][]{\renewcommand{\currentsongtitle}{\expandafter\MakeUppercase#2}\section[#1#2]{\categories{#3}\index{complete}{\currentsongtitle}#1#2}}
+\newcommand{\songtitle}[3][]{\setcounter{verse}{0}\renewcommand{\currentsongtitle}{\expandafter\MakeUppercase#2}\section[#1#2]{\categories{#3}\index{complete}{\currentsongtitle}#1#2}}
 \newcommand{\categories}[1]{{\normalsize\parbox[t][0pt]{0pt}{\makebox[0pt][r]{\minibox[frame=false,rule=0pt,pad=0pt,c,t]{#1}~~~}}}}
 \newcommand{\qv}[1]{\index{complete}{#1}}
 \newcommand{\todo}[1]{\index{incomplete}{#1}}
@@ -132,30 +136,30 @@
 \newcommand{\farewell}{\farewellsymbol\index{farewell}{\currentsongtitle}}
 
 % Here is the command to make an index header
-\newcommand{\indexsymboltitle}[1]{\savespace{24pt}
+\newcommand{\indexsymboltitle}[1]{\savespace{24pt}{\normalsize\parbox[t][0pt]{0pt}{\makebox[0pt][r]{\minibox[frame=false,rule=0pt,pad=0pt,c,t]{#1}~~~}}}}
 
-{\fontspec{Noto Emoji}#1}
-
-}
 \newcommand{\customindexentry}[2]{\ifthenelse{\isempty{#2}}{#1}{#1~~•~~#2}\\}
+
+\newcounter{verse}
 
 %\newcommand{\chorus}[1]{{\makebox[0pt][r]{{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r.}~~~}\bf#1}}
 \newcommand{\chorusfont}[1]{{\bf#1}}
 \newcommand{\chorus}[1]{{\makebox[0pt][r]{{\footnotesize\fontspec{Noto Emoji}👉}~~}\chorusfont{#1}}}
-\newcommand{\versemark}{\makebox[0pt][r]{•~~~}}
+\newcommand{\versemark}{\stepcounter{verse}\makebox[0pt][r]{{\tiny\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}\theverse}~~~}}
 %\newcommand{\refrain}{\quad{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r.}}
 \newcommand{\refrain}{~~\makebox[0pt][l]{\footnotesize\fontspec{Noto Emoji}👉}}
 %\newcommand{\doublerefrain}{\quad{\fontspec[Letters=SmallCaps]{Beorcana Pro Bd} r\kern0.1pt r.}}
 \newcommand{\doublerefrain}{~~~\makebox[0pt][l]{\footnotesize\fontspec{Noto Emoji}👉}}
 \newcommand{\differentline}{{\fontspec{Noto Emoji}🔸}}
+\newcommand{\repeatfirst}[1][1]{\quad {\fontspec[Numbers={Proportional, OldStyle}]{Beorcana Micro Pro}\tiny [Repeat #1]}}
 
 \newcommand{\vin}{\null\hskip 1em}
 \newcommand{\vvin}{\null\hskip 2em}
 
-\newcommand{\etc}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴}}
-\newcommand{\etcc}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴\kern-1.5pt ⤴}}
-\newcommand{\etcrefrain}{\makebox[0pt][l]{~~\scriptsize\fontspec{Noto Emoji}⤴\kern1.5pt 👉}}
-\newcommand{\simile}{\makebox[0pt][l]{~~\footnotesize\fontspec{Noto Emoji}💫}}
+\newcommand{\etc}{~~{\scriptsize\fontspec{Noto Emoji}⤴}~~}
+\newcommand{\etcc}{~~{\scriptsize\fontspec{Noto Emoji}⤴\kern-1.5pt ⤴}~~}
+\newcommand{\etcrefrain}{~~{\scriptsize\fontspec{Noto Emoji}⤴\kern1.5pt 👉}~~}
+\newcommand{\simile}{~~{\footnotesize\fontspec{Noto Emoji}💫}~~}
 
 \newcommand{\emphasis}[1]{{\fontspec[Numbers={Proportional, OldStyle},LetterSpace=3,WordSpace=1.3]{Beorcana Pro}\textsc{#1}}}
 
