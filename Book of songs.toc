@@ -1,104 +1,113 @@
 \selectlanguage *{latex}
-\contentsline {section}{When this world comes to an end}{{\sc d}-1}%
-\contentsline {section}{I will guide thee}{{\sc d}-1}%
-\contentsline {section}{Bonaparte}{{\sc d}-2}%
-\contentsline {section}{The great day (Sacred Harp)}{{\sc d}-2}%
-\contentsline {section}{That great day (Wings of the morning)}{{\sc d}-2}%
-\contentsline {section}{The chickens they are crowing}{{\sc d}-3}%
-\contentsline {section}{Winter’s night}{{\sc d}-4}%
-\contentsline {section}{I know whose tears}{{\sc d}-5}%
-\contentsline {section}{Mingulay boat song}{{\sc d}-6}%
-\contentsline {section}{Golden streets (Sacred Harp)}{{\sc d}-6}%
-\contentsline {section}{Drive dull care away}{{\sc d}-7}%
-\contentsline {section}{John Ball}{{\sc d}-8}%
-\contentsline {section}{Bringing in the sheaves (Boyes)}{{\sc d}-9}%
-\contentsline {section}{Singing through the hard times}{{\sc d}-10}%
-\contentsline {section}{Deliverance will come}{{\sc d}-11}%
-\contentsline {section}{Pleasant and delightful}{{\sc d}-11}%
-\contentsline {section}{Wild rover}{{\sc d}-12}%
-\contentsline {section}{Rolling down to Old Maui}{{\sc d}-12}%
-\contentsline {section}{Collier lads}{{\sc d}-13}%
-\contentsline {section}{Boozing}{{\sc d}-14}%
-\contentsline {section}{Smoothies}{{\sc d}-15}%
-\contentsline {section}{Snoozing}{{\sc d}-17}%
-\contentsline {section}{Rolling home}{{\sc d}-17}%
-\contentsline {section}{The farthest field}{{\sc d}-18}%
-\contentsline {section}{Bold Riley}{{\sc d}-19}%
-\contentsline {section}{Anderson’s coast}{{\sc d}-20}%
-\contentsline {section}{Ain’t no ash will burn}{{\sc d}-21}%
-\contentsline {section}{Crossing the bar}{{\sc d}-21}%
-\contentsline {section}{A psalm of life}{{\sc d}-22}%
-\contentsline {section}{Row on}{{\sc d}-23}%
-\contentsline {section}{Drunken sailor}{{\sc d}-23}%
-\contentsline {section}{Sixteen tons}{{\sc d}-24}%
-\contentsline {section}{Wayfaring stanger}{{\sc d}-25}%
-\contentsline {section}{Roll the old chariot along}{{\sc d}-25}%
-\contentsline {section}{Stormalong}{{\sc d}-25}%
-\contentsline {section}{General Taylor}{{\sc d}-26}%
-\contentsline {section}{Green grow the rushes ho}{{\sc d}-26}%
-\contentsline {section}{The good old way (Manx)}{{\sc d}-26}%
-\contentsline {section}{P stands for Paddy}{{\sc d}-27}%
-\contentsline {section}{I’ll fly away}{{\sc d}-27}%
-\contentsline {section}{Down to the river to pray}{{\sc d}-27}%
-\contentsline {section}{Here’s a health to the company}{{\sc d}-28}%
-\contentsline {section}{The parting glass}{{\sc d}-28}%
-\contentsline {section}{Well below the valley-o}{{\sc d}-29}%
-\contentsline {section}{Gabriel’s trumpet}{{\sc d}-31}%
-\contentsline {section}{Byker Hill}{{\sc d}-32}%
-\contentsline {section}{Rowdy soul}{{\sc d}-33}%
-\contentsline {section}{Essequibo River}{{\sc d}-34}%
-\contentsline {section}{Come and get your oars and row}{{\sc d}-34}%
-\contentsline {section}{Haul away Joe}{{\sc d}-34}%
-\contentsline {section}{Haul away snow}{{\sc d}-35}%
-\contentsline {section}{Santiana}{{\sc d}-36}%
-\contentsline {section}{Santiano (French)}{{\sc d}-37}%
-\contentsline {section}{South Australia}{{\sc d}-38}%
-\contentsline {section}{Let the sun shine down on me}{{\sc d}-38}%
-\contentsline {section}{The king’s shilling}{{\sc d}-39}%
-\contentsline {section}{Gower wassail}{{\sc d}-39}%
-\contentsline {section}{What will we do}{{\sc d}-39}%
-\contentsline {section}{Randy-dandy-o}{{\sc d}-39}%
-\contentsline {section}{Up and away with the laverock}{{\sc d}-40}%
-\contentsline {section}{Sweet Mary Starbuck}{{\sc d}-40}%
-\contentsline {section}{Chick-a-li-lee-o}{{\sc d}-40}%
-\contentsline {section}{Raise the rafters}{{\sc d}-41}%
-\contentsline {section}{More waters rising}{{\sc d}-41}%
-\contentsline {section}{Block Island song}{{\sc d}-42}%
-\contentsline {section}{Save, mighty Lord}{{\sc d}-42}%
-\contentsline {section}{There is no night there}{{\sc d}-43}%
-\contentsline {section}{Mary won’t you pray for me}{{\sc d}-43}%
-\contentsline {section}{I still have praise}{{\sc d}-44}%
-\contentsline {section}{Glory in the morning}{{\sc d}-45}%
-\contentsline {section}{I’m going home}{{\sc d}-45}%
-\contentsline {section}{Traveling shoes}{{\sc d}-47}%
-\contentsline {section}{Dead and gone}{{\sc d}-48}%
-\contentsline {section}{There is more love somewhere}{{\sc d}-48}%
-\contentsline {section}{No time to feel hopeless}{{\sc d}-48}%
-\contentsline {section}{Here is my home}{{\sc d}-49}%
-\contentsline {section}{Thousands or more}{{\sc d}-50}%
-\contentsline {section}{Parting song}{{\sc d}-50}%
-\contentsline {section}{I’m wandering to and fro}{{\sc d}-50}%
-\contentsline {section}{Leave her, Johnny}{{\sc d}-50}%
-\contentsline {section}{Padstow farewell}{{\sc d}-51}%
-\contentsline {section}{Down by the salley gardens}{{\sc e}-1}%
-\contentsline {section}{Farewell to Tarwathie}{{\sc e}-1}%
-\contentsline {section}{The blacksmith}{{\sc e}-2}%
-\contentsline {section}{The blacksmith (mixolydian)}{{\sc e}-3}%
-\contentsline {section}{The cherry tree carol}{{\sc e}-3}%
-\contentsline {section}{Willie’s lady}{{\sc e}-4}%
-\contentsline {section}{The good old way (Sacred Harp)}{{\sc e}-4}%
-\contentsline {section}{Twa corbies}{{\sc e}-5}%
-\contentsline {section}{Master Kilby}{{\sc e}-5}%
-\contentsline {section}{The blackest crow}{{\sc e}-6}%
-\contentsline {section}{Captain Kidd (Shenandoah Harmony)}{{\sc e}-7}%
-\contentsline {section}{Last night as I lay on my bed}{{\sc e}-7}%
-\contentsline {section}{The discharged drummer}{{\sc e}-8}%
-\contentsline {section}{Red rocking chair}{{\sc e}-9}%
-\contentsline {section}{Fair Annie}{{\sc e}-9}%
-\contentsline {section}{The female rambling sailor}{{\sc e}-9}%
-\contentsline {section}{Lady Diamond}{{\sc e}-9}%
-\contentsline {section}{Red-winged blackbird}{{\sc e}-9}%
-\contentsline {section}{Katie Cruel}{{\sc e}-10}%
-\contentsline {section}{Willie Moore}{{\sc e}-10}%
-\contentsline {section}{Bold William Taylor}{{\sc e}-11}%
-\contentsline {section}{Done found my lost sheep}{{\sc e}-11}%
+\contentsline {section}{When this world comes to an end}{{\sc b}-1}%
+\contentsline {section}{I will guide thee}{{\sc b}-1}%
+\contentsline {section}{Bonaparte}{{\sc b}-2}%
+\contentsline {section}{The great day (Sacred Harp)}{{\sc b}-2}%
+\contentsline {section}{That great day (Wings of the morning)}{{\sc b}-3}%
+\contentsline {section}{The chickens they are crowing}{{\sc b}-3}%
+\contentsline {section}{Winter’s night}{{\sc b}-4}%
+\contentsline {section}{I know whose tears}{{\sc b}-5}%
+\contentsline {section}{Mingulay boat song}{{\sc b}-6}%
+\contentsline {section}{Golden streets (Sacred Harp)}{{\sc b}-6}%
+\contentsline {section}{Drive dull care away}{{\sc b}-7}%
+\contentsline {section}{John Ball}{{\sc b}-8}%
+\contentsline {section}{Bringing in the sheaves (Boyes)}{{\sc b}-9}%
+\contentsline {section}{Deliverance will come}{{\sc b}-10}%
+\contentsline {section}{Pleasant and delightful}{{\sc b}-12}%
+\contentsline {section}{Rolling down to Old Maui}{{\sc b}-13}%
+\contentsline {section}{I can hew}{{\sc b}-14}%
+\contentsline {section}{Collier lads get gold and silver}{{\sc b}-15}%
+\contentsline {section}{Soldier boy for me}{{\sc b}-16}%
+\contentsline {section}{Boozing}{{\sc b}-16}%
+\contentsline {section}{Smoothies}{{\sc b}-17}%
+\contentsline {section}{Snoozing}{{\sc b}-18}%
+\contentsline {section}{Rolling home}{{\sc b}-18}%
+\contentsline {section}{The farthest field}{{\sc b}-20}%
+\contentsline {section}{Bold Riley}{{\sc b}-20}%
+\contentsline {section}{Anderson’s coast}{{\sc b}-21}%
+\contentsline {section}{Ain’t no ash will burn}{{\sc b}-22}%
+\contentsline {section}{Crossing the bar}{{\sc b}-23}%
+\contentsline {section}{A psalm of life}{{\sc b}-24}%
+\contentsline {section}{Row on}{{\sc b}-25}%
+\contentsline {section}{Let union be}{{\sc b}-26}%
+\contentsline {section}{Drunken sailor}{{\sc b}-27}%
+\contentsline {section}{Sixteen tons}{{\sc b}-27}%
+\contentsline {section}{Poor wayfaring stanger}{{\sc b}-28}%
+\contentsline {section}{Roll the old chariot along}{{\sc b}-29}%
+\contentsline {section}{Stormalong}{{\sc b}-29}%
+\contentsline {section}{General Taylor}{{\sc b}-30}%
+\contentsline {section}{Green grow the rushes ho}{{\sc b}-31}%
+\contentsline {section}{How can I keep from singing}{{\sc b}-31}%
+\contentsline {section}{The good old way (Manx)}{{\sc b}-31}%
+\contentsline {section}{P stands for Paddy}{{\sc b}-32}%
+\contentsline {section}{I’ll fly away}{{\sc b}-32}%
+\contentsline {section}{Down to the river to pray}{{\sc b}-32}%
+\contentsline {section}{Here’s a health to the company}{{\sc b}-32}%
+\contentsline {section}{The parting glass}{{\sc b}-33}%
+\contentsline {section}{Well below the valley-o}{{\sc b}-34}%
+\contentsline {section}{Gabriel’s trumpet}{{\sc b}-35}%
+\contentsline {section}{Byker Hill}{{\sc b}-36}%
+\contentsline {section}{Rowdy soul}{{\sc b}-37}%
+\contentsline {section}{Essequibo River}{{\sc b}-38}%
+\contentsline {section}{Come and get your oars and row}{{\sc b}-39}%
+\contentsline {section}{Haul away Joe}{{\sc b}-39}%
+\contentsline {section}{Haul away snow}{{\sc b}-40}%
+\contentsline {section}{Santiana}{{\sc b}-41}%
+\contentsline {section}{Santiano (French)}{{\sc b}-41}%
+\contentsline {section}{South Australia}{{\sc b}-42}%
+\contentsline {section}{Mollymauk}{{\sc b}-42}%
+\contentsline {section}{Northwest Passage}{{\sc b}-43}%
+\contentsline {section}{Let the sun shine down on me}{{\sc b}-43}%
+\contentsline {section}{The king’s shilling}{{\sc b}-44}%
+\contentsline {section}{Gower wassail}{{\sc b}-44}%
+\contentsline {section}{What will we do}{{\sc b}-44}%
+\contentsline {section}{Randy-dandy-o}{{\sc b}-44}%
+\contentsline {section}{Up and away with the laverock}{{\sc b}-45}%
+\contentsline {section}{Sweet Mary Starbuck}{{\sc b}-45}%
+\contentsline {section}{Chick-a-li-lee-o}{{\sc b}-45}%
+\contentsline {section}{Raise the rafters}{{\sc b}-46}%
+\contentsline {section}{More waters rising}{{\sc b}-46}%
+\contentsline {section}{Block Island song}{{\sc b}-47}%
+\contentsline {section}{The goodnight song}{{\sc b}-47}%
+\contentsline {section}{Save, mighty Lord}{{\sc b}-48}%
+\contentsline {section}{There is no night there}{{\sc b}-49}%
+\contentsline {section}{Mary won’t you pray for me}{{\sc b}-49}%
+\contentsline {section}{I still have praise}{{\sc b}-50}%
+\contentsline {section}{Glory in the morning}{{\sc b}-50}%
+\contentsline {section}{I’m going home}{{\sc b}-51}%
+\contentsline {section}{Traveling shoes}{{\sc b}-52}%
+\contentsline {section}{Dead and gone}{{\sc b}-54}%
+\contentsline {section}{There is more love somewhere}{{\sc b}-54}%
+\contentsline {section}{No time to feel hopeless}{{\sc b}-54}%
+\contentsline {section}{When they reopen all the bars}{{\sc b}-55}%
+\contentsline {section}{Here is my home}{{\sc b}-55}%
+\contentsline {section}{Thousands or more}{{\sc b}-56}%
+\contentsline {section}{Parting song}{{\sc b}-56}%
+\contentsline {section}{I’m wandering to and fro}{{\sc b}-56}%
+\contentsline {section}{Leave her, Johnny}{{\sc b}-56}%
+\contentsline {section}{Padstow farewell}{{\sc b}-57}%
+\contentsline {section}{Now our meeting’s over}{{\sc b}-57}%
+\contentsline {section}{Down by the salley gardens}{{\sc c}-1}%
+\contentsline {section}{Farewell to Tarwathie}{{\sc c}-1}%
+\contentsline {section}{The blacksmith}{{\sc c}-2}%
+\contentsline {section}{The blacksmith (mixolydian)}{{\sc c}-3}%
+\contentsline {section}{The cherry tree carol}{{\sc c}-3}%
+\contentsline {section}{Willie’s lady}{{\sc c}-4}%
+\contentsline {section}{The good old way (Sacred Harp)}{{\sc c}-4}%
+\contentsline {section}{Twa corbies}{{\sc c}-5}%
+\contentsline {section}{Master Kilby}{{\sc c}-5}%
+\contentsline {section}{The blackest crow}{{\sc c}-6}%
+\contentsline {section}{Captain Kidd (Shenandoah Harmony)}{{\sc c}-7}%
+\contentsline {section}{Last night as I lay on my bed}{{\sc c}-7}%
+\contentsline {section}{The discharged drummer}{{\sc c}-8}%
+\contentsline {section}{Red rocking chair}{{\sc c}-9}%
+\contentsline {section}{Fair Annie}{{\sc c}-9}%
+\contentsline {section}{The female rambling sailor}{{\sc c}-9}%
+\contentsline {section}{Lady Diamond}{{\sc c}-9}%
+\contentsline {section}{Red-winged blackbird}{{\sc c}-9}%
+\contentsline {section}{Little Sadie}{{\sc c}-10}%
+\contentsline {section}{The Newry highwayman}{{\sc c}-10}%
+\contentsline {section}{Katie Cruel}{{\sc c}-10}%
+\contentsline {section}{Willie Moore}{{\sc c}-10}%
+\contentsline {section}{Bold William Taylor}{{\sc c}-12}%
+\contentsline {section}{Done found my lost sheep}{{\sc c}-12}%
