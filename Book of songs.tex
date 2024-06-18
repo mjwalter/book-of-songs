@@ -1,3 +1,6 @@
+
+% compile with `lualatex --shell-escape Book\ of\ songs.tex`
+
 \documentclass[openany, 8pt]{extbook}
 
 %\includeonly{"songs/there-is-more-love-somewhere"}
@@ -57,6 +60,8 @@
 \renewcommand{\cftpnumalign}{l}
 
 \setmainfont[Numbers={Proportional, OldStyle},Ligatures=TeX]{Beorcana Pro}
+
+\newcommand{\smallcaps}[1]{{\fontspec[Letters={SmallCaps,UppercaseSmallCaps},LetterSpace=3,WordSpace=1.3]{Beorcana Micro Pro}#1}}
 
 \newcommand{\longerpage}[1][\baselineskip]{\enlargethispage{#1}}
 
@@ -319,24 +324,27 @@ This book of songs is for personal use only.
 \include{"copyright/i-know-whose-tears"}
 \include{"copyright/mingulay"}
 \include{"songs/golden-streets"}
+\todo{Gravedigger} % Dave Matthews, songwriter; Cantus, performer
 
 \include{"songs/drive-dull-care-away"}
 \include{"copyright/john-ball"}
 \include{"copyright/bringing-in-the-sheaves"}
-\include{"copyright/singing-through-the-hard-times"}
+% \include{"copyright/singing-through-the-hard-times"}
 \todo{Fisherman’s song}
 \todo{Hewed out of the mountain}
-\include{"songs/deliverance-will-come"}
+% \include{"songs/deliverance-will-come"}
 \include{"songs/pleasant-and-delightful"}
-\todo{Bright shining morning} % http://www.traditionalmusic.co.uk/folk-song-lyrics/Bright_Shining_Morning.htm
-\include{"songs/wild-rover"}
-% \todo{Country boy}
-% \todo{Barrett’s privateers}
+% \include{"songs/wild-rover"}
+\todo{Barrett’s privateers}
 \include{"songs/rolling-down-to-old-maui"}
+  % Revise!!
+  % https://mudcat.org/@displaysong.cfm?SongID=5053
+  % https://mainlynorfolk.info/lloyd/songs/rollingdowntooldmaui.html
 \include{"copyright/i-can-hew"}
 \include{"songs/collier-lads-get-gold-and-silver"}
 \include{"songs/soldier-boy-for-me"}
 \todo{Bully in the alley}
+\todo{Rattling bog}
 \include{"songs/boozing"}
 \include{"copyright/boozing-1"}
 \include{"copyright/boozing-2"}
@@ -344,10 +352,11 @@ This book of songs is for personal use only.
 \include{"copyright/farthest-field"}
 \include{"songs/bold-riley"}
 \include{"copyright/andersons-coast"}
+\todo{Waterbound} % Dirk Powell / Rhiannon Giddens
 \include{"copyright/aint-no-ash-will-burn"}
 \include{"copyright/crossing-the-bar"}
 \include{"copyright/psalm-of-life"}
-\include{"songs/row-on"}
+\include{"copyright/row-on"}
 \include{"songs/let-union-be"}
 
 \todo{Missionary’s farewell}
@@ -355,9 +364,10 @@ This book of songs is for personal use only.
 \todo{Loch Lomond}
 \todo{Acres of clams}
 \include{"songs/drunken-sailor"}
-\include{"copyright/sixteen-tons"}
+\include{"copyright/sixteen-tons"} % Merle Travis
 \todo{Five hundred miles}
 \include{"songs/wayfaring-stranger"}
+\todo{Going home} % Daily Book Wayfaring Stranger
 \include{"songs/roll-the-old-chariot-along"}
 \todo{Whisky in the jar}
 \todo{Fox} % The fox
@@ -368,10 +378,12 @@ This book of songs is for personal use only.
 \todo{Wild mountain thyme}
 \include{"songs/green-grow-the-rushes-ho"}
 \todo{Siúil a rún} % Johnny has gone for a soldier https://www.youtube.com/watch?v=WGToXpOIy_g
-\todo{How can I keep from singing}
+\include{"songs/how-can-i-keep-from-singing"}
 \todo{Shady Grove} % fiddle
 \todo{Country roads}
 \todo{Which side are you on}
+\todo{Eye on the prize} % https://www.youtube.com/watch?v=D_tcZAqQUAg
+\todo{Prodigal son} % Whinnie-Muir
 \todo{Better days coming}
 \todo{Babe of Bethlehem}
 \include{"songs/good-old-way-manx"}
@@ -393,6 +405,7 @@ This book of songs is for personal use only.
 \include{"songs/well-below-the-valley-o"}
 \todo{O Death}
 \include{"songs/gabriels-trumpet"}
+\todo{Angel Gabriel} % http://www.traditionalmusic.co.uk/folk-song-lyrics/Angel_Gabriel.htm
 \include{"songs/byker-hill"}
 \include{"songs/rowdy-soul"}
 \include{"songs/essequibo-river"}
@@ -402,31 +415,48 @@ This book of songs is for personal use only.
 \todo{Bring us a barrel}
 \todo{Keg of brandy}
 % \todo{Nancy Whisky}
-\todo{Sugar in the hold below}
+\todo{Sugar in the hold below} % AKA Sugar in the hold
+\todo{My son John} % The Teacups, performer
 \include{"copyright/come-and-get-your-oars-and-row"}
 \include{"songs/haul-away-joe"}
+  % Haul away for Rosie? https://mainlynorfolk.info/louis.killen/songs/haulawayforrosie.html
 \include{"copyright/haul-away-joe-1"}
 \include{"songs/santiana"}
-\include{"copyright/santiana-1"}
+\todo{Pique la baleine} % https://www.tiktok.com/@squeezeboxcryptid/video/6917332717650595077
+\todo{Le capitaine de Saint-Maio}
+\todo{Eliza Lee} % https://www.youtube.com/watch?v=gAtMan8mNzM ?
 \include{"songs/south-australia"}
+\todo{Won’t you go my way} % https://mainlynorfolk.info/peter.bellamy/songs/wontyougomyway.html % https://www.youtube.com/watch?v=dR5dIgnO-qk&t=1048s
+\todo{Sam’s gone away} % https://www.exmouthshantymen.com/songbook.php?id=84
+\todo{Cannery shed} % ? http://www.timberheadmusic.com/disc/canneryshed.htm
+\todo{The Wellerman}
+\todo{Roll her down the bay} % https://mainlynorfolk.info/lloyd/songs/rollherdownthebay.html
 \include{"copyright/mollymauk"}
 \include{"copyright/northwest-passage"}
 \todo{Bound for the Rio Grande}
 \todo{Load ’em and stack ’em}
 \todo{Sea coal}
 \include{"copyright/let-the-sun-shine-down-on-me"}
+\todo{Song on the times} % https://www.youtube.com/watch?v=G6O0Erj0hkc
 \include{"songs/kings-shilling"}
+\todo{Hanging on the old barbed wire}
 \include{"songs/gower-wassail"}
+\todo{The world turned upside down} % https://www.youtube.com/watch?v=JEv3LpXNX8U
 \include{"songs/what-will-we-do"}
 \todo{Short life of trouble}
 \include{"songs/randy-dandy-o"}
-\todo{Nothing but a humbug}
+\todo{Nothing but a humbug} % https://www.youtube.com/watch?v=0TgMBcjT5Yk
 \include{"songs/up-and-away-with-the-laverock"}
 \include{"copyright/sweet-mary-starbuck"}
-include{"copyright/way-down-in-the-toad-mines"}
+\include{"copyright/way-down-in-the-toad-mines"}
 \include{"songs/chick-a-li-lee-o"}
+\todo{Leather-winged bat} % https://www.youtube.com/watch?v=n6qSWxSuYr4 % add verse: Gender politics used to be shit / They've gotten better, but only by a bit
+\todo{Phoebe in her petticoat}
+\todo{Darling, don’t you think it’s wrong}
+\todo{Pat do this} % https://mollyandmaggie.bandcamp.com/track/pat-do-this
 % \todo{Where shall I go?} % Too young for heaven
-\todo{Chicken on a raft}
+\todo{Like the snow} % qv Vanished like the snow % https://www.youtube.com/watch?v=m54BeyOXfYs % Anayis
+\todo{Broken string}
 \include{"copyright/raise-the-rafters"}
 \include{"copyright/stand-together"}
 \include{"copyright/more-waters-rising"}
@@ -437,50 +467,71 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{Jack-a-Roe} % Lilly Munroe / Lay the lily-o
 \todo{Devil’s nine questions}
 \todo{Magpie} % https://nigelmusic.wordpress.com/2015/05/01/the-story-behind-the-song-the-magpie/
+\todo{Who killed cock robin}
+\todo{The cutty wren}
+\todo{Time to remember the poor} % Pam Goddard, performer
+\todo{The old beggar man} % Lissa Schneckenburger
+\todo{When my baby cries} % Lissa Schneckenburger
 \todo{Poor boy (Red Molly)}
+\todo{The Lady Mary sails} % https://www.youtube.com/watch?v=qmmyT8wio34 % http://www.trefftzs.org/Jeff/Music/TheLadyMarySails-Tab.pdf
 \todo{Away, away} % Len Graham, performer
 \todo{Fire Maringo}
 \todo{River driver}
 \todo{Fire down below}
 \todo{Diggins}
-\todo{Diggers’ song}
+\todo{Diggers’ song} % https://www.youtube.com/watch?v=OA4FTIz2Zrw
+\todo{The Chartist anthem}
+\todo{Homophobia} % https://www.youtube.com/watch?v=BgDEG4w_VV0
 \todo{Uist tramping song}
 \todo{Pat do this}
-\todo{Juliana} % Where do you go
+\todo{Juliana} % Where do you go % https://www.facebook.com/alexkg/posts/10100475208664962 % https://shanty.rendance.org/lyrics/showlyric.php/juliana
 \todo{Black is the color of my true love’s hair} % Nina Simone
 \todo{Maid of Amsterdam} % A-roving
 \todo{Tea chantey} % Jonathan Jensen, songwriter
 \todo{Mandy at the sing} % Laurie Tupper, songwriter; Mandy Lowell, dedicatee
+\todo{Cape Cod girls} % Bracken version
+\todo{Emotional labor chantey}
 
 \todo{Journey Home} % (Sacred Harp 111t)
 \todo{Resurrected} % My father’s gone to view that land (Sacred Harp 153)
 \todo{Cuba} % Poor mourners found a home at last (Sacred Harp 401)
 \include{"songs/save-mighty-lord"}
 \todo{City that lies foursquare} % (Skaggs etc) https://www.youtube.com/watch?v=IRtVx5eNiDk
+\todo{Cool of the day} % Jean Ritchie environmental song
+\todo{Frobisher Bay}
 \include{"songs/there-is-no-night-there"}
+\todo{And he didn’t say a mumbling word}
 \include{"copyright/mary-wont-you-pray-for-me"}
-\include{"copyright/i-still-have-praise"}
 \include{"copyright/sing-through-the-morning"}
 \include{"copyright/glory-in-the-morning"}
+\todo{Crossing the river}  % Laurie song
 \include{"copyright/im-going-home"}
+\include{"songs/bright-morning-star"}
+\todo{Where the soul never dies} % (Skaggs etc) http://www.bluegrassmessengers.com/canaans-land--golden-where-the-soul-never-dies.aspx
+\todo{Better days a-coming}
 \include{"songs/traveling-shoes"}
 \include{"songs/dead-and-gone"}
 \todo{Hard to get along} % Emily Miller, performer
 \include{"songs/there-is-more-love-somewhere"}
 \include{"songs/over-on-the-other-shore"}
 \include{"copyright/no-time-to-feel-hopeless"}
+\include{"copyright/when-they-reopen-all-the-bars"}
 \include{"copyright/here-is-my-home"}
 \include{"songs/thousands-or-more"}
 \include{"copyright/parting-song"}
 \include{"songs/im-wandering-to-and-fro"}
 \include{"songs/leave-her-johnny"}
 \include{"songs/padstow-farewell"}
-\include{"songs/now-our-meetings-over"}
+\include{"songs/now-our-meetings-over"} % Land on the shore
+% Whinnie-muir version of stand on the shore
 
 \todo{Calon lân} % with harmony :)
 \todo{À la claire fontaine} % Crowfoot
-\todo{Bam bam} % Veganaj homoj manĝas ne la bestojn / Ne la bestojn - just print words?
+\todo{Tri martolod}
+\todo{Eisva mudu abudu} % https://www.youtube.com/watch?v=geBQxyBWmqQ
 \todo{Kvazaŭ sonĝo} % (Inspiro)
+\todo{John o’ dreams} % https://en.wikipedia.org/wiki/John_O%27Dreams
+\todo{Daisies} % https://reelyredd.com/usa-sherman-daisies-0813.htm % https://m.facebook.com/groups/699283097477464?view=permalink&id=712117276194046&ref=m_notif
 \todo{May it be} % use tengwar!
 \todo{Ar hyd y nos} % All through the night
 \endgroup
@@ -505,6 +556,7 @@ include{"copyright/way-down-in-the-toad-mines"}
 \include{"songs/cherry-tree-carol"}
 \include{"songs/willies-lady"}
 \include{"songs/good-old-way"}
+\include{"copyright/i-still-have-praise"}
 
 \todo{Lord Randal} % Tim Eriksen, performer
 \todo{Binnorie} % Two sisters % Custer Larue; Tim Eriksen
@@ -517,6 +569,7 @@ include{"copyright/way-down-in-the-toad-mines"}
 
 \todo{Barbara Allen}
 \todo{Down in the willow garden} % Willow garden
+\todo{Train on the island}
 \todo{Water is wide}
 \todo{Kilkelly, Ireland}
 \todo{Dreadful end of Marianna for sorcery}
@@ -536,6 +589,8 @@ include{"copyright/way-down-in-the-toad-mines"}
 \include{"songs/captain-kidd"}
 \todo{Hicks’ farewell}
 
+\todo{A dram to warm the piper} % http://www.dannycarnahan.com/music/warmthepiper.html % https://www.facebook.com/colette.parry.5/posts/3579563808826677
+
 \include{"songs/last-night-as-i-lay-on-my-bed"}
 \todo{My heart is sair for somebody}
 \include{"songs/discharged-drummer"}
@@ -550,6 +605,7 @@ include{"copyright/way-down-in-the-toad-mines"}
 \include{"songs/lady-diamond"}
 \todo{Three little devils} % Roud 160; Jean Ritchie, performer
 % \todo{L \& N don't stop here anymore} % Jean Ritchie, performer
+\todo{Bluebird song} % Jean Ritchie
 \include{"copyright/red-winged-blackbird"}
 \todo{I wish the wars were all over} % Tim Eriksen, performer
 
@@ -559,13 +615,14 @@ include{"copyright/way-down-in-the-toad-mines"}
 \include{"songs/little-sadie"}
 \todo{Henry Lee}
 \todo{Crafty maid’s policy}
+\todo{The bad squire} % https://www.youtube.com/watch?v=934LgyLFXuc
 \todo{Maid on the shore} % https://www.youtube.com/watch?v=ElqtB-Udm8M
 \todo{Lowlands of Holland} % Steeleye Span
 \todo{Matty Groves} % Musgrove
 \todo{Foggy dew}
-\todo{House carpenter}
+\todo{House carpenter} % Doc Watson
 \include{"songs/willy-o-winsbury"}
-\todo{Little Margaret}
+\todo{Little Margaret} % Rhiannon Giddens
 \todo{Brigg fair}
 \todo{Fair maid walking}
 \todo{Now westlin winds} % https://mainlynorfolk.info/folk/songs/nowwestlinwinds.html
@@ -577,9 +634,9 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{Bay of Biscay-o}
 \todo{True lovers’ farewell}
 \todo{Willow glen} % https://mainlynorfolk.info/folk/songs/willowglen.html
-\todo{Newry highwayman} % Mel; Solas. first tune can be a chorus song.
+\include{"songs/newry-highwayman"} % Mel; Solas. first tune can be a chorus song.
 \todo{Pretty Polly}
-\todo{Yarrow} % Dowie dens of Yarrow / Braes of Yarrow
+\todo{Yarrow} % Dowie dens of Yarrow / Braes of Yarrow - Red Tail Ring recorded
 \todo{The bold grenadier} % [The] nightingale / "One morning in May (Bold grenadier)" [pick melody and words - https://www.youtube.com/watch?v=cVVp_y7G59k]
 \include{"songs/katie-cruel"}
 \todo{Old Bangham} % narrative https://www.jefftk.com/p/old-family-songs
@@ -593,17 +650,26 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{O when shall I see Jesus} % Sacred Harp 85 82t 106 129 319 410b
 \todo{Be thou my vision}
 \todo{Lord of all hopefulness} % Slane
+\todo{Millbrook}
 \todo{Sweet prospect}
 \todo{O thou who driest the mourner’s tear}
 \include{"songs/done-found-my-lost-sheep"}
 \include{"copyright/crying-of-emmanuel"}
+\todo{Hold on} % https://www.youtube.com/watch?v=wWEB64ewzzc
 \todo{Occam’s carol}
 \todo{Rockingham}
 \todo{Walk with God}
 \todo{I love the holy Son of God} % Tim Eriksen, performer
+\todo{Traveling Soldier}
+\todo{O once I had a glorious view (Columbus)}
+\todo{I am a stranger here below (Conflict)}
+\todo{The old churchyard}
+\todo{Why do we mourn departing friends (New Orleans)}
 \todo{Heavenly port} % Sacred Harp 378t; also 128 - http://www.hymntime.com/tch/htm/o/j/o/ojordsbi.htm
 \todo{Farewell vain world} % Sacred Harp 176t, 274t, 278b; more words at 282
 \todo{Love divine, all loves excelling} % Blaenwern
+\todo{Riddle song}
+\todo{Red rocking chair} % Lyrics are in _source folder
 \endgroup
 
 
@@ -621,6 +687,7 @@ include{"copyright/way-down-in-the-toad-mines"}
 \todo{Babylon}
 \todo{Absalom}
 \todo{Full moon outside my windows}
+\todo{Round and round the earth is turning}
 \todo{Dona nobis pacem}
 \todo{Oh how lovely is the evening}
 \endgroup
